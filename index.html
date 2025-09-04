@@ -1,406 +1,259 @@
-/* Color Palette */
-:root {
-  --primary-color: #00C1B3; /* Teal Green */
-  --secondary-color: #D4AF37; /* Warm Gold */
-  --text-color: #1a1a2e; /* Dark Text */
-  --bg-color: #f9f9fb; /* Light Background */
-  --card-bg: white;
-  --border-color: #e0f7f5;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khadijat Oduyemi | Virtual Assistant & Customer Support Specialist</title>
+  <meta name="description" content="Stop drowning in admin chaos. I help busy professionals save 10+ hours/week with proven virtual assistance & customer support." />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/message/OTVHJH6FUULDL1" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
-body {
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--bg-color);
-}
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">Khadijat Oduyemi</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#results">Results</a></li>
+          <li><a href="#services">How I Help</a></li>
+          <li><a href="#portfolio">Proof of Work</a></li>
+          <li><a href="#testimonials">Client Wins</a></li>
+          <li><a href="#contact">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Stop Drowning in Admin Chaos</h1>
+        <p>
+          If you're missing meetings, buried in emails, or spending more time on tasks than growth — I help busy professionals <strong>reclaim 10+ hours per week</strong> with reliable virtual assistance & customer support.
+        </p>
+        <div class="cta-buttons">
+          <a href="https://wa.me/message/OTVHJH6FUULDL1" class="btn-primary" target="_blank">Chat on WhatsApp — I'm Ready</a>
+          <a href="assets/pdfs/Khadijat_Oduyemi_CV.pdf" class="btn-secondary" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-  color: var(--text-color);
-}
+  <!-- Results Section -->
+  <section id="results" class="section results">
+    <div class="container">
+      <h2 class="section-title">What You’ll Gain When You Hire Me</h2>
+      <div class="results-grid">
+        <div class="result-item">
+          <i class="fas fa-clock"></i>
+          <h3>Save 10+ Hours Weekly</h3>
+          <p>No more chasing schedules or sorting emails. I handle your calendar, inbox, and follow-ups — so you can focus on high-impact work.</p>
+        </div>
+        <div class="result-item">
+          <i class="fas fa-check-circle"></i>
+          <h3>Zero Missed Meetings</h3>
+          <p>I manage Calendly, Google Calendar, and time zones — ensuring every client call is scheduled, confirmed, and ready.</p>
+        </div>
+        <div class="result-item">
+          <i class="fas fa-comments"></i>
+          <h3>Happy Clients, Faster Responses</h3>
+          <p>With 10+ years in customer support, I respond professionally and promptly — improving client satisfaction and retention.</p>
+        </div>
+        <div class="result-item">
+          <i class="fas fa-database"></i>
+          <h3>Clean, Accurate Data</h3>
+          <p>From spreadsheets to CRM updates, I ensure your data is organized, error-free, and ready for decision-making.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-h1 {
-  font-size: 2.8rem;
-  margin-bottom: 1rem;
-  line-height: 1.2;
-}
+  <!-- How I Help -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="section-title">How I Solve Your Problems</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-calendar-check"></i>
+          <h3>You Miss Meetings</h3>
+          <p><strong>I fix it:</strong> I manage your calendar across time zones, set up Calendly links, and send reminders — so you never double-book or miss a call.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Your Inbox is Overwhelming</h3>
+          <p><strong>I fix it:</strong> I organize your emails, draft responses, flag urgent messages, and keep your inbox under control.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-headset"></i>
+          <h3>Client Support is Slipping</h3>
+          <p><strong>I fix it:</strong> I handle customer inquiries via email, Freshdesk, or CRM — with empathy, speed, and professionalism.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-plane"></i>
+          <h3>Travel & Tasks Are Chaotic</h3>
+          <p><strong>I fix it:</strong> I book flights, manage itineraries, prepare documents, and handle logistics — so you travel stress-free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  color: var(--text-color);
-}
+  <!-- Proof of Work -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <h2 class="section-title">Proof of Work: Real Results</h2>
+      <p class="section-subtitle">Here’s how I’ve helped others just like you.</p>
 
-h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--primary-color);
-}
+      <div class="category">
+        <h3>📅 Calendar & Scheduling</h3>
+        <div class="swiper calendlySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/calendly-scheduling/calendar1.jpg" alt="Calendar Management" /></div>
+            <div class="swiper-slide"><img src="assets/images/calendly-scheduling/meeting-link.png" alt="Meeting Link" /></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
-p {
-  color: #555;
-  margin-bottom: 1rem;
-}
+      <div class="category">
+        <h3>📧 Email & Inbox Management</h3>
+        <div class="swiper emailSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/email-management/inbox-organization.jpg" alt="Inbox Organization" /></div>
+            <div class="swiper-slide"><img src="assets/images/email-management/email-template.jpg" alt="Email Template" /></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-  transition: color 0.3s;
-}
+      <div class="category">
+        <h3>📊 Data & Reporting</h3>
+        <div class="swiper dataSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/data-entry/spreadsheet1.jpg" alt="Spreadsheet" /></div>
+            <div class="swiper-slide"><img src="assets/images/data-entry/data-conversion.pdf.jpg" alt="PDF to Excel" /></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-a:hover {
-  color: #008c82;
-}
+  <!-- Certifications -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <h2 class="section-title">Certified & Ready</h2>
+      <p class="section-subtitle">I’m not just experienced — I’m trained and verified.</p>
+      <div class="swiper certSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/images/my-certificates/alx-certificate.jpg" alt="ALX VA Certificate" /></div>
+          <div class="swiper-slide"><img src="assets/images/my-certificates/hr-diploma.jpg" alt="HR Diploma" /></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
 
-ul {
-  list-style: none;
-}
+  <!-- Client Wins -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2 class="section-title">Client Wins</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>“I was missing client calls and drowning in emails. Khadijat stepped in and within a week, my calendar was clean, my inbox was organized, and I was finally in control.”</p>
+          <div class="client">
+            <strong>Amara Linwood</strong><br />
+            Founder, Mindful Ed, Portland, OR
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>“Our customer response time dropped from 12 hours to under 2. Khadijat handles our support with professionalism — our clients have noticed the difference.”</p>
+          <div class="client">
+            <strong>Daniel Reeves</strong><br />
+            Operations Lead, ClearPath Learning, Manchester, UK
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>“She took over my travel planning and data entry. Now I spend zero time on admin and 100% on strategy. That’s the kind of VA who changes your business.”</p>
+          <div class="client">
+            <strong>Simone Dubois</strong><br />
+            Consultant, Greenlight Strategy, Montreal, QC
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-/* Buttons */
-.btn-primary {
-  display: inline-block;
-  background: var(--primary-color);
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  font-weight: 600;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
-}
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Ready to Reclaim Your Time?</h2>
+      <p class="section-subtitle">Let’s get you organized — starting today.</p>
+      <div class="contact-flex">
+        <div class="contact-form">
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="What’s your biggest time-waster right now?" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Let’s Connect</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:khadijatoduyemi@gmail.com">khadijatoduyemi@gmail.com</a></li>
+            <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/khadijatoduyemi" target="_blank">linkedin.com/in/khadijatoduyemi</a></li>
+            <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/message/OTVHJH6FUULDL1" target="_blank">Chat on WhatsApp</a></li>
+            <li><i class="fas fa-file-pdf"></i> <a href="assets/pdfs/Khadijat_Oduyemi_CV.pdf" download>Download Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-.btn-primary:hover {
-  background: #008c82;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 193, 179, 0.2);
-}
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Khadijat Oduyemi</div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#results">Results</a>
+          <a href="#services">How I Help</a>
+          <a href="#portfolio">Proof of Work</a>
+          <a href="#contact">Get Started</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/khadijatoduyemi" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/message/OTVHJH6FUULDL1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:khadijatoduyemi@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <p class="footer-tagline">Helping businesses run smoother, one task at a time.</p>
+      <p class="copyright">© 2025 Khadijat Oduyemi. All Rights Reserved.</p>
+    </div>
+  </footer>
 
-.btn-secondary {
-  background: transparent;
-  color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-weight: 500;
-  transition: all 0.3s;
-}
-
-.btn-secondary:hover {
-  background: rgba(212, 175, 55, 0.1);
-}
-
-/* Header */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  z-index: 1000;
-  padding: 15px 0;
-  transition: all 0.3s ease;
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text-color);
-}
-
-nav ul {
-  display: flex;
-  gap: 2rem;
-}
-
-nav a {
-  color: #333;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: var(--primary-color);
-}
-
-/* Hero */
-.hero {
-  padding-top: 140px;
-  padding-bottom: 100px;
-  background: linear-gradient(135deg, #e0f7f5 0%, #f9f9fb 100%);
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 2.8rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 1rem auto;
-  color: #444;
-}
-
-.cta-buttons {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* Section Base */
-.section {
-  padding: 80px 0;
-  background: var(--card-bg);
-}
-
-.section-title {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  color: var(--text-color);
-}
-
-.section-subtitle {
-  text-align: center;
-  color: #666;
-  max-width: 700px;
-  margin: 0 auto 2rem;
-}
-
-/* About */
-.about-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  align-items: center;
-}
-
-.about-image img {
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid var(--border-color);
-}
-
-.about-text h2 {
-  margin-bottom: 1rem;
-  color: var(--text-color);
-}
-
-.highlights {
-  margin-top: 1.5rem;
-}
-
-.highlight {
-  margin-bottom: 0.8rem;
-  color: var(--text-color);
-  font-weight: 500;
-}
-
-.highlight i {
-  color: var(--primary-color);
-  margin-right: 0.5rem;
-}
-
-/* Value Prop */
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.value-item {
-  text-align: center;
-  padding: 1.5rem;
-  border-radius: 12px;
-  background: #f0f8ff;
-  transition: transform 0.3s;
-}
-
-.value-item:hover {
-  transform: translateY(-5px);
-}
-
-.value-item i {
-  font-size: 2rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-/* Services */
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.service-card {
-  background: var(--bg-color);
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: all 0.3s;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-}
-
-.service-card i {
-  font-size: 1.8rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-/* Testimonials */
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.testimonial {
-  background: #f0f8ff;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-.testimonial p {
-  font-style: italic;
-  color: #444;
-  margin-bottom: 1rem;
-}
-
-.client {
-  margin-top: 1rem;
-}
-
-.client strong {
-  color: var(--text-color);
-}
-
-/* Swiper */
-.swiper {
-  width: 100%;
-  margin: 2rem auto;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-}
-
-.swiper-button-next, .swiper-button-prev {
-  color: var(--primary-color);
-}
-
-.swiper-pagination-bullet-active {
-  background: var(--primary-color);
-}
-
-/* Footer */
-footer {
-  background: var(--text-color);
-  color: white;
-  padding: 40px 0;
-  text-align: center;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-bottom: 1rem;
-}
-
-.footer-logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.footer-links a, .footer-social a {
-  color: white;
-  margin: 0 0.8rem;
-  font-size: 1.1rem;
-}
-
-.footer-social a i {
-  font-size: 1.4rem;
-  color: var(--secondary-color);
-}
-
-.footer-tagline {
-  font-style: italic;
-  opacity: 0.9;
-  margin-bottom: 0.5rem;
-}
-
-.copyright {
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
-/* WhatsApp Float */
-.whatsapp-float {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 60px;
-  height: 60px;
-  background: var(--primary-color);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 193, 179, 0.4);
-  z-index: 1000;
-  transition: transform 0.3s;
-}
-
-.whatsapp-float:hover {
-  transform: scale(1.1);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  h1 { font-size: 2.2rem; }
-  .hero p { font-size: 1rem; }
-  nav ul { gap: 1rem; }
-  .cta-buttons { flex-direction: column; align-items: center; }
-  .about-content, .contact-flex { flex-direction: column; text-align: center; }
-  .footer-content { flex-direction: column; }
-}
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
